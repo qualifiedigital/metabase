@@ -1,0 +1,18 @@
+# System files
+proc/
+sys/
+dev/
+tmp/
+var/cache/
+var/log/
+etc/
+
+# Docker specific
+.dockerenv
+
+# Logs
+*.log
+logs/
+
+# Large files (will use LFS)
+*.jar
