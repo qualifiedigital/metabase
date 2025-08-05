@@ -16,3 +16,6 @@ logs/
 
 # Large files (will use LFS)
 *.jar
+
+# sst
+.sst
