@@ -16,3 +16,8 @@ logs/
 
 # Large files (will use LFS)
 *.jar
+
+# sst
+.sst
+
+node_modules/
