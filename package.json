@@ -1,0 +1,13 @@
+{
+  "name": "metabase",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sso": "aws sso login --sso-session=carlos",
+    "deploy:dev": "sst deploy",
+    "deploy:prod": "sst deploy --stage production"
+  },
+  "dependencies": {
+    "sst": "^3.17.10"
+  }
+}

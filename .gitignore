@@ -19,3 +19,5 @@ logs/
 
 # sst
 .sst
+
+node_modules/
